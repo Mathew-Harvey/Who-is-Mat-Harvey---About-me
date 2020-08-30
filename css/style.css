@@ -1,15 +1,8 @@
-/**
- * Media Query Style Exercise: Solved;
- **/
 
  * {
   box-sizing: border-box;
 }
 
-/*
-  The background color will be #ccc
-  at browser widths above 768px
-*/
 body {
   /* Typography */
   font-size: 18px;
@@ -19,15 +12,16 @@ body {
   background-image: url(../img/pngbarn.png);
   background-repeat: no-repeat;
   background-size: 40%;
-  background-position: 100px 50px 0 0;
+  background-position: 100px 50p 0 0;
   background-color: #ccc;
+  
   
 
 }
 
 /*
   The width of the wrapper will be 1024px
-  at browser widths above 768px
+  at browser widths above 991px
 */
 .wrapper {
   /* Box-model */
@@ -43,6 +37,7 @@ body {
   width: 820px;
   padding: 20px 20px 20px 20px;
 }
+
 
 
 
